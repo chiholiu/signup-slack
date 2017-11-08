@@ -1,0 +1,19 @@
+{
+  "name": "signup-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.13.4",
+    "heroku-cli": "^6.14.36",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.10.8"
+  },
+  "author": "",
+  "license": "ISC"
+}

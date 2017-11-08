@@ -1,0 +1,40 @@
+body {
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+	font-family: Arial;
+	font-size: 16px;
+}
+.wrapper {
+	width: 100%;
+	max-width: 500px;
+	min-width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form {
+	padding: 15px;
+	margin: 10px;
+	font-size: 18px;
+	background: #0288D1;
+}
+h2 {
+	text-align: center;
+}
+form input,
+form button {
+	border: none;
+	padding: 10px;
+	margin-top: 4px;
+	margin-bottom: 15px;
+}
+.extra-information {
+	padding: 15px;
+}
+@media screen and (min-width: 768px) {
+	.wrapper {
+		margin-top: 130px;
+	}
+}
