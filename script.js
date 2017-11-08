@@ -7,13 +7,11 @@ var port = Number(process.env.PORT || 3000);
 
 mongoose.Promise = global.Promise;
 mongoURI = 'mongodb://localhost:27017/email';
-mongoose.connect(process.env.MONGOLAB_URI || mongoURI);
+mongoose.connect(process.env.MONGODB_URI || mongoURI);
 
 var app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
-
-
 
 app.get('/', function(req, res) {
 	res.sendFile(path.join(__dirname, 'index.html'));
