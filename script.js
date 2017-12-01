@@ -34,7 +34,7 @@ app.post('/data', function(req, res) {
 		email: req.body.email
 	}).save(function(err, doc) {
 		if(err) res.json(err);
-		else res.send('Successfully signed up!, you will get an invitation within a couple of days. chiholiu@gmail.com');
+		else res.send('Successfully signed up!, you will get an invitation within a couple of days. frontenddudes@gmail.com');
 	});
 });
 
