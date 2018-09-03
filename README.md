@@ -7,4 +7,5 @@ To install all the dependencies use:
 <b>NPM install</b>
 <br>
 To run this app use
+<br>
 <b>NPM start</b>
